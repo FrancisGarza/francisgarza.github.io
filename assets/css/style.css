@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,500;1,400&display=swap');
+
+* {
+  font-family: 'Karla', sans-serif;
+  box-sizing: border-box;
+  margin: auto;
+  width: 90%;
+}
+
+h1 {
+  text-align: center;
+  font-size: xx-large;
+  font-weight: bold;
+  padding: 10px;
+}
+h3{
+  font-size: small;
+  text-align: center;
+}
+h2 {
+  text-align: center;
+  font-size: large;
+  margin: 10px;
+}
+
+p {
+  text-align: justify;
+  font-size: medium;
+}
+
+body {
+  background-color: #ffffff;
+  opacity: 1;
+  background-image: radial-gradient(#bbbfff 2px, #ffffff 2px);
+  background-size: 40px 40px;
+}
+
+.link {
+  padding: 10px;
+  display: flex;
+  font-size: x-large;
+  justify-content: space-evenly;
+}
+
+a:link {
+  text-align: center !important;
+  color: blue;
+}
+
+.titulo {
+  font-size: 130%;
+  text-align: justify;
+}
+
+.banderitas {
+  padding: 20px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.wrap {
+  margin-top: 12%;
+  display: grid;
+  grid-template-areas:
+    "cnt1-txt  raton-img"
+    "izq-cnt2 der-cnt2"
+    "cntbig cntbig"
+    "contacto contacto"
+  ;
+  column-gap: 10%;
+  row-gap: 100px;
+}
+
+.izq-cnt2 {
+  display: grid;
+  grid-template-columns: auto;
+  gap: 20px;
+}
+
+.cntbig {
+  display: initial;
+  float: inline-end;
+  padding-bottom: 30px;
+}
+
+.cntbig::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.card {
+  height: 423px;
+  float: left;
+  width: 50%;
+  padding: 20px;
+}
+
+.btn {
+  margin: 11px;
+}
+
+.btn-view {
+  padding: 6px;
+  display: inline-block;
+  width: 100px;
+  height: 33px;
+  background-color: #bbbfff;
+  border-radius: 5px;
+  font-size: 16px;
+  transition: 1s;
+  color: #112A46;
+}
+
+.btn-view:hover {
+  background-color: #7f87ff;
+}
+
+img {
+  align-self: center;
+
+}
+.contacto {
+  display: flex;
+  flex-direction: unset;
+  padding-bottom: 14px;
+}
