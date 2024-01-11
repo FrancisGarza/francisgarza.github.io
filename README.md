@@ -23,6 +23,6 @@ Se ha seleccionado una paleta de colores que abarca desde el rosa hasta el blanc
 1. Clona este repositorio.
 2. Abre el archivo `index.html` en tu navegador.
 
-![Imagen de la propuesta](asset/proyectoAlexandro.png)
+![Imagen de la propuesta](assets/maquetacion.png)
 
-¡Disfruta explorando el portafolio de Alexandro!
+¡Disfruta explorando el portafolio de Frncis!
